@@ -1,0 +1,8 @@
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.navbar-brand { letter-spacing: 0.2px; }
+.carousel-caption { background: rgba(0,0,0,0.35); padding: 8px 12px; border-radius: 6px; }
+.card .btn { margin-top: 8px; }
+
+@media (max-width: 576px) {
+  .carousel-caption { display: none; }
+}

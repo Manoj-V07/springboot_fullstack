@@ -42,7 +42,6 @@ public class TicketController {
         model.addAttribute("trains", trainService.getAllTrains());
         return "tickets/form";
     }
-
     @PostMapping
     public String createTicket(@RequestParam Long userId, @RequestParam Long trainId) {
         ticketService.createTicket(userId, trainId);
